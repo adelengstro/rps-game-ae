@@ -1,0 +1,62 @@
+
+
+.wrapper {
+    text-align:center;
+}
+
+
+
+.rockbutton {
+    background-color: dimgray;
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:absolute;
+    top: 50%;
+    left:29%
+}
+
+.paperbutton {
+    background-color: dimgray;
+    border:none;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:absolute;
+    top: 20%;
+   
+}
+
+.scissorsbutton {
+    background-color: dimgray;
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:absolute;
+    top: 50%;
+    right:20%
+}
+
+.banner {
+    color:yellowgreen;
+    font-size: 90px;
+    font-family: sans-serif;
+    text-align: center;
+}
