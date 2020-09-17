@@ -56,7 +56,14 @@
 
 .banner {
     color:yellowgreen;
-    font-size: 90px;
+    font-size: 60px;
     font-family: sans-serif;
     text-align: center;
+}
+
+.rockpic {
+    width: 200px;
+    height: 80px;
+    position: 50px 150px;
+
 }
