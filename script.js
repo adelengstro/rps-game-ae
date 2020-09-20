@@ -10,9 +10,7 @@ window.onload = function(){
 
 
 function playGame() {
-let chooseAnObject = document.getElementById('choose-object').value //value allows us to get the value from input
-function getRandomObject(chooseAnObject);
-function gameResult();
+let computerChoice = getComputerChoice();
 
 }
 
@@ -30,10 +28,11 @@ function gameResult();
 
 
 //computer chooses a random object from the array
-function getRandomObject () {
+function getComputerChoice () {
     let gameObjects = ['rock', 'paper', 'scissors']
     const random = Math.floor(Math.random() * gameObjects.length); 
     console.log(random, gameObjects[random]);
+    return gameObjects[random];
     }
     
     
@@ -45,7 +44,6 @@ function getRandomObject () {
     
     function gameResult() 
     {
-        function random();
         let player;
         let computer;
         let answer;
