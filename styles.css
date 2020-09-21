@@ -24,6 +24,10 @@
     left:250px;
     width:200px;
 }
+.rockbutton:hover{background-color: #2B2B2B;}
+.paperbutton:hover{background-color: #2B2B2B;}
+.scissorsbutton:hover{background-color: #2B2B2B;}
+.playagainbutton:hover{background-color: #271f5a;}
 
 .paperbutton {
     background-color: dimgray;
@@ -38,6 +42,26 @@
     cursor: pointer;
     position:absolute;
     top:350px;
+    height:60px;
+    left:640px;
+    width:200px;
+   
+}
+
+.playagainbutton {
+    background-color: #6A5ACD; 
+    border-color: black;
+    border-radius: 50%;
+    color:white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:absolute;
+    top:800px;
     height:60px;
     left:640px;
     width:200px;
