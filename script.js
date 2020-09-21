@@ -6,7 +6,7 @@ window.onload = function(){
     document.getElementById("scissors-button").addEventListener("click", playGame);
 }
 
-
+// https://code-boxx.com/javascript-rock-paper-scissors-game/
 
 
 function playGame() {
